@@ -1,0 +1,25 @@
+{
+    "name": "kastro/blogapp",
+    "type": "project",
+    "require": {
+        "php-di/php-di": "^6.0",
+        "nikic/fast-route": "^1.3",
+        "aura/session": "^2.1",
+        "symfony/validator": "^4.2",
+        "robmorgan/phinx": "^0.10.6",
+        "jasongrimes/paginator": "^1.0",
+        "kint-php/kint": "^3.1",
+        "respect/validation": "^1.1",
+        "doctrine/orm": "^2.6",
+        "fzaninotto/faker": "^1.8",
+        "twig/twig": "^2.7"
+    },
+   "autoload": {
+       "psr-4": {
+           "Application\\": "app/"
+       },
+       "files": [
+           "app/helpers.php"
+       ]
+   }
+}
